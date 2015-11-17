@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* New Green Power HTML CSS Document */
+
+/*---------------------------------------------*/
+
+html { 
+	overflow-y:scroll; 
+}
+
+body, div, dl, dt, dd, th, td, ul, ol, li,i, h1, h2, h3, h4, h5, h6, p, form {
+	margin: 0;
+	padding: 0;
+	top: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, strong, em, p {
+	font-size:100%;
+	font-style:normal;
+	font-weight:normal;
+}
+
+
+body{
+	font: 16px/22px Helvetica, Helvetica neue, Arial, Verdana, Palatino, sans-serif, 微軟正黑體, 細明體, 新細明體;
+	margin: 0;
+	padding: 0;
+	color: #515151;
+	background-color: #FFFFFF;
+}
+
+a {
+	text-decoration: none; 
+	color:#515151;
+	outline: none; /* for Firefox */
+	blr:expression(this.onFocus=this.blur()); /* for IE */ 
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: none; 
+}
+
+a img { 
+    border: none;
+}
+/*img, table{ border:0; }*/
+/*img{display:block;}*/
+
+.clearfloat {
+	clear: both;
+	width: auto;
+	left: 0px;
+}
+
+/*---------------------------------------------*/
+
+.gry-txt {
+	color: #CCC;
+}
+
+.gr-txt {
+	color: #90BD1F;
+}
+
+.blu-txt {
+	color: #0072A9;
+}
+
+/*---------------------------------------------*/
+
+
